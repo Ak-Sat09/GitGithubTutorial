@@ -10,4 +10,9 @@ public class EndpointController {
     public String hello(){
         return "Hello World";
     }
+
+    @GetMapping
+    public String hello2(){
+        return "Hello World 2";
+    }
 }
